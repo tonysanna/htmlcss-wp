@@ -7,7 +7,7 @@
 /* common */
 
 .container {
-    width: 70%;
+    width: 75%;
     margin: 0 auto;
 }
 
@@ -16,6 +16,10 @@
     content: "";
     display: table;
     clear: both;
+}
+
+body {
+    font-family: 'Montserrat' , sans-serif;
 }
 
 /* fine common */
@@ -42,6 +46,10 @@ nav {
     margin-bottom: 40px;
 }
 
+nav ul {
+    text-transform: uppercase;
+}
+
 nav li {
     display: inline;
     list-style: none;
@@ -57,7 +65,8 @@ nav li a {
 .banner {
     position: relative;
     height: 500px;
-    color: white;
+    color: white
+
 }
 
 .overlay {
@@ -66,21 +75,33 @@ nav li a {
     right: 0;
     bottom: 0;
     left: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 1%;
    
 }
 .banner img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 1%;
+
 }
 
 
 .banner-text {
     position: absolute;
-    bottom: 20px;
+    bottom: 50px;
+    padding-left: 20px;
+    
 }
 
+.pdiff {
+    color: lightgrey;
+}
+
+
 /* fine header */
+
 
 /* main */
 

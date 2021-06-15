@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* common */
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* fine common */
+
+
+/* header */
+
+header {
+    margin-bottom: 10px;
+}
+
+.menu {
+    height: 70px;
+    margin-bottom: 10px;
+}
+
+.banner {
+    height: 300px;
+}
+
+/* fine header */
+
+/* main */
+
+.col {
+    float: left;
+    padding: 10px;
+}
+
+.col-left,
+.col-right {
+    width: calc(100% / 5);
+}
+
+.col-center {
+    width: calc((100% / 5) * 3);
+}
+
+/* fine main */
+
+/* footer */
+footer {
+    height: 30px ;
+}
+
+/* fine footer */
+
+
